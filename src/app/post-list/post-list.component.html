@@ -1,0 +1,13 @@
+
+<div *ngIf="selectedBootcamp">
+  <p>{{selectedBootcamp.name}}</p>
+</div>
+
+<div class="post-list" *ngFor="let post of selectedPosts | post:selectedBootcampId">
+  <div class="card">
+    <h3>{{post.name}}</h3>
+    <h5>Author: {{post.author}}</h5>
+    <p>Bootcamp Rating: {{post.rating}}</p>
+    <p>{{post.description}}</p>
+  </div>
+</div>

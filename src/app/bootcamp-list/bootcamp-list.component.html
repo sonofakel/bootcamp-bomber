@@ -1,0 +1,7 @@
+
+
+<div class="bootcamp-list" *ngFor="let bootcamp of bootcamps | async">
+  <div class="card">
+    <h3 (click)="goToBootcampDetailPage(bootcamp)">{{bootcamp.name}}</h3>
+  </div>
+</div>

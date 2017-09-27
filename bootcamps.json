@@ -1,0 +1,37 @@
+{
+  "data":{
+    "bootcamps": [{
+      "name": "Epicodus",
+      "description": "Epicodus is the most affordable full-time, in-person code school, and one of the few programs that includes an internship with a tech company as well as job search support.  Students graduate with real-life work experience already on their resumes, a dedicated team to help land their first job, and a close community of peers and instructors supporting them along the way.",
+      "location": "Seattle, WA",
+      "rating": 0
+      }, {
+      "name": "Coding Dojo",
+      "description": "Coding Dojo is the bootcamp education done right. Unlike most boot camps, we don’t just teach you how to code to get a job. Our industry–leading curriculum accelerates you into an entirely new career in the tech–industry, and becoming a developer is only one of many exciting paths to take.",
+      "location": "Bellevue, WA",
+      "rating": 0
+        }, {
+      "name": "Code Fellows",
+      "description": "We are a Seattle-based, in-person coding academy that guides people from all backgrounds to change their lives through career-focused education. We shape passionate coders with immersive training to meet industry needs and improve diversity in the tech scene. In every course, students get hands-on development experience, working in teams to apply their training and building apps that expand their skills. Advanced-level students specialize in full-stack JavaScript, Python, or ASP.NET development, and contribute to the culture and goals of the companies they join.",
+      "location": "Seattle, WA",
+      "rating": 0
+  }],
+
+    "posts": [{
+      "name": "Lorem Ipsum Dolor Sit Amet",
+      "author": "Jonny Walker",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "rating": 0
+      }, {
+      "name": "Duis Aute Irure Dolor",
+      "author": "Mary Summers",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "rating": 0
+      }, {
+      "name": "Epicodus",
+      "author": "Mike Opal",
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
+      "rating": 0
+    }]
+  }
+}
