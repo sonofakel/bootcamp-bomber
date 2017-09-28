@@ -16,6 +16,7 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { PostPipe } from './post.pipe';
+import { NewPostComponent } from './new-post/new-post.component';
 
 
 export const firebaseConfig = {
@@ -34,7 +35,8 @@ export const firebaseConfig = {
     PostListComponent,
     SignUpComponent,
     LogInComponent,
-    PostPipe
+    PostPipe,
+    NewPostComponent
   ],
   imports: [
     BrowserModule,

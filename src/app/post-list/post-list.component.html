@@ -3,6 +3,8 @@
   <p>{{selectedBootcamp.name}}</p>
 </div>
 
+<button (click)="goToNew()">New Post</button>
+
 <div class="post-list" *ngFor="let post of selectedPosts | post:selectedBootcampId">
   <div class="card">
     <h3>{{post.name}}</h3>

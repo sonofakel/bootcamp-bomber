@@ -50,4 +50,8 @@ export class PostListComponent implements OnInit {
 
   }
 
+  goToNew() {
+    this.router.navigate(['new-post', this.selectedBootcampId])
+  }
+
 }

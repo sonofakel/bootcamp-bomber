@@ -1,0 +1,14 @@
+<div>
+  <h3>Add New Post</h3>
+
+  <label>Post Title:</label>
+  <input type="text" #title>
+
+  <label>Body:</label>
+  <input type="text" #body>
+
+  <label>Rating (1-5):</label>
+  <input type="number" min='1' max='5' #rating>
+
+  <button (click)="submitPost(title.value, body.value, rating.value)">Submit</button>
+</div>
